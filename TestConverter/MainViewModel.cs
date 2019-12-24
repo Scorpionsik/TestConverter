@@ -1,6 +1,9 @@
 ﻿using CoreWPF.MVVM;
 using CoreWPF.Utilites;
 using CoreWPF.Utilites.Navigation;
+using CoreWPF.Windows.Enums;
+using Microsoft.Win32;
+using System;
 
 namespace TestConverter
 {
@@ -26,10 +29,44 @@ namespace TestConverter
 
         public MainViewModel(NavigationManager navigator)
         {
+            int index = 0;
+            try
+            {
+                RegistryKey currentUserKey = Registry.CurrentUser;
+                currentUserKey = currentUserKey.OpenSubKey("SOFTWARE", true);
+                if (currentUserKey.OpenSubKey("Coreman soft", true) == null) currentUserKey.CreateSubKey("Coreman soft");
+                currentUserKey = currentUserKey.OpenSubKey("Coreman soft", true);
+                if (currentUserKey.OpenSubKey("TestConverter", true) == null) currentUserKey.CreateSubKey("TestConverter").SetValue("saveMode", "0");
+                currentUserKey = currentUserKey.OpenSubKey("TestConverter", true);
+                index = Convert.ToInt32(currentUserKey.GetValue("saveMode").ToString());
+            }
+            catch { }
+
             this.Title = "Конвертер тестов";
             this.navigator = navigator;
             this.Modes = new ListExt<string>(App.Modes);
-            this.Select_mode = this.Modes.First;
+            try
+            {
+                this.Select_mode = this.Modes[index];
+            }
+            catch
+            {
+                this.Select_mode = this.Modes.First;
+            }
+        }
+
+        public override WindowClose CloseMethod()
+        {
+            try
+            {
+                RegistryKey currentUserKey = Registry.CurrentUser;
+                currentUserKey = currentUserKey.OpenSubKey("SOFTWARE", true);
+                currentUserKey = currentUserKey.OpenSubKey("Coreman soft", true);
+                currentUserKey = currentUserKey.OpenSubKey("TestConverter", true);
+                currentUserKey.SetValue("saveMode", (this.Modes.IndexOf(this.Select_mode)).ToString());
+            }
+            catch { }
+            return base.CloseMethod();
         }
     }
 }
