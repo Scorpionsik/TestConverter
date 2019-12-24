@@ -1,28 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using CoreWPF.Utilites.Navigation;
+using CoreWPF.Windows;
+using TestConverter.Modules;
 
 namespace TestConverter
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : WindowExt
     {
         public MainWindow()
         {
             InitializeComponent();
+
+            NavigationManager nav = new NavigationManager(this.Dispatcher, this.Frame);
+            nav.Register<ForMobileViewModel, ForMobileView>(new ForMobileViewModel(), App.Modes[0]);
+            nav.Register<ForPCViewModel, ForPCView>(new ForPCViewModel(), App.Modes[1]);
+
+            this.DataContext = new MainViewModel(nav);
         }
     }
 }

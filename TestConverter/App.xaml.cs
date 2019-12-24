@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CoreWPF.Utilites;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace TestConverter
     /// </summary>
     public partial class App : Application
     {
-    }
+        public static ListExt<string> Modes = new ListExt<string> { "Для телефона (Ассистент)", "Для компьютера (TestXPro)" };
+}
 }
