@@ -7,6 +7,22 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock Text="{Binding Path=Title}" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+        <TextBlock TextAlignment="Center" FontSize="20" FontWeight="Bold" Grid.Row="0" Text="{Binding Path=Title}" />
+        <GroupBox Grid.Row="1" Header="Выбранный файл:">
+            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Filepath}" />
+        </GroupBox>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Выбрать файл..." Command="{Binding Path=Command_GetFilepath}"/>
+            <Button Grid.Column="1" Content="Конвертировать!" Command="{Binding Path=Command_StartConvert}"/>
+        </Grid>
     </Grid>
 </UserControl>

@@ -55,11 +55,15 @@ namespace TestConverter.Modules
 
         public string GetPathForSavefile()
         {
-            SaveFileDialog window = new SaveFileDialog();
-            window.FileName = this.Filename + "." + this.SavefileFilter;
-            if ((bool)window.ShowDialog())
+            if (this.Filename != null && this.Filename.Length > 0)
             {
-                return window.FileName;
+                SaveFileDialog window = new SaveFileDialog();
+                window.FileName = this.Filename + "." + this.SavefileFilter;
+                if ((bool)window.ShowDialog())
+                {
+                    return window.FileName;
+                }
+                else return string.Empty;
             }
             else return string.Empty;
         }

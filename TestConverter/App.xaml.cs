@@ -14,6 +14,6 @@ namespace TestConverter
     /// </summary>
     public partial class App : Application
     {
-        public static ListExt<string> Modes = new ListExt<string> { "Для телефона (Ассистент)", "Для компьютера (TestXPro)" };
+        public static ListExt<string> Modes = new ListExt<string> { "Для телефона (Ассистент)", "Для компьютера (MyTestXPro)" };
 }
 }

@@ -115,8 +115,5 @@
   <ItemGroup>
     <None Include="Resources\temp-test.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\temp-question.xml" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

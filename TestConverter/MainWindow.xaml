@@ -6,7 +6,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TestConverter"
         mc:Ignorable="d"
-        Title="{Binding Path=Title}" Height="450" Width="800">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="{Binding Path=Title}" Height="160" Width="455">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>

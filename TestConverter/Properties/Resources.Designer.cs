@@ -61,28 +61,6 @@ namespace TestConverter.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на &lt;Task Type=&quot;TYPE_TASK_CHOICE_SINGLE&quot; Score=&quot;1&quot;&gt;
-        ///&lt;Title/&gt;
-        ///&lt;QuestionText&gt;
-        ///  &lt;PlainText&gt;&lt;/PlainText&gt;
-        ///&lt;/QuestionText&gt;
-        ///&lt;Options&gt;
-        ///  &lt;IsAllowRandom&gt;true&lt;/IsAllowRandom&gt;
-        ///  &lt;IsCompulsory&gt;false&lt;/IsCompulsory&gt;
-        ///  &lt;IsOnlyForEduMode&gt;false&lt;/IsOnlyForEduMode&gt;
-        ///  &lt;IsDenyPartially&gt;false&lt;/IsDenyPartially&gt;
-        ///&lt;/Options&gt;
-        ///  &lt;Variants&gt;
-        ///  &lt;/Variants&gt;
-        ///&lt;/Task&gt;.
-        /// </summary>
-        internal static string temp_question {
-            get {
-                return ResourceManager.GetString("temp_question", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Ищет локализованную строку, похожую на &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;MyTestX&gt;
         ///	&lt;Version&gt;11.0.0.58&lt;/Version&gt;
