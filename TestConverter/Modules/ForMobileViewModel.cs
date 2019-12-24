@@ -1,11 +1,5 @@
 ﻿using CoreWPF.Utilites;
-using CoreWPF.Utilites.Navigation;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 
 namespace TestConverter.Modules
@@ -33,7 +27,7 @@ namespace TestConverter.Modules
                 {
                     this.Test = "";
                     XmlDocument tmp_loadTest = new XmlDocument();
-                    XmlNode tmp_elem;
+
                     tmp_loadTest.Load(this.Filepath);
                     foreach(XmlNode tmp_question in tmp_loadTest.GetElementsByTagName("Task"))
                     {
