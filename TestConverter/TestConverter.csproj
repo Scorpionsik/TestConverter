@@ -70,6 +70,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CoreWPF\INavigateModule.cs" />
+    <Compile Include="CoreWPF\ListExt.cs" />
+    <Compile Include="CoreWPF\NavigationManager.cs" />
+    <Compile Include="CoreWPF\NotifyPropertyChanged.cs" />
+    <Compile Include="CoreWPF\RelayCommand.cs" />
+    <Compile Include="CoreWPF\ViewModel.cs" />
+    <Compile Include="CoreWPF\WindowClose.cs" />
+    <Compile Include="CoreWPF\WindowExt.cs" />
     <Compile Include="Modules\ForMobileView.xaml.cs">
       <DependentUpon>ForMobileView.xaml</DependentUpon>
     </Compile>
@@ -111,10 +119,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MyWPFLib\CoreWPF\CoreWPF.csproj">
-      <Project>{9ef180ca-78eb-4df4-96c7-0b9e9399fdb3}</Project>
-      <Name>CoreWPF</Name>
-    </ProjectReference>
+    <None Include="Resources\temp-test.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temp-question.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

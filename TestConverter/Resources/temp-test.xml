@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+	<Version>11.0.0.58</Version>
+	<SaveDate>2019-12-23T23:02:07Z</SaveDate>
+	<TestOptions>
+		<TestCreate>2019-12-13T00:37:23Z</TestCreate>
+		<TestLastSave>2019-12-13T21:05:09Z</TestLastSave>
+		<Title></Title>
+		<Author>Author</Author>
+		<AuthorEmail/>
+		<QuestionFormulization>Rand</QuestionFormulization>
+		<IsOrderTaskRandom>True</IsOrderTaskRandom>
+		<IsOrderVariantRandom>True</IsOrderVariantRandom>
+		<Mode>
+			<ModeEducation>True</ModeEducation>
+			<ModeFree>False</ModeFree>
+			<ModePenalty>False</ModePenalty>
+			<ModeMono>False</ModeMono>
+		</Mode>
+		<MarkLevel MarkCount="5">
+			<Level Mark="5">85</Level>
+			<Level Mark="4">70</Level>
+			<Level Mark="3">50</Level>
+			<Level Mark="2">0</Level>
+			<Level Mark="1">0</Level>
+		</MarkLevel>
+		<Mark100True>True</Mark100True>
+		<OptionsGroups>
+			<IsUseGroupLimit>True</IsUseGroupLimit>
+			<IsShowGroupTitle>False</IsShowGroupTitle>
+		</OptionsGroups>
+		<OptionsModeEdu>
+			<IsShowGoodAnswer>True</IsShowGoodAnswer>
+			<IsShowGoodAlert>False</IsShowGoodAlert>
+			<IsRepeatAskTask>False</IsRepeatAskTask>
+			<IsRepeatAtTheEnd>False</IsRepeatAtTheEnd>
+		</OptionsModeEdu>
+		<Report>
+			<IsShowReport>False</IsShowReport>
+			<IsSaveReport>False</IsSaveReport>
+			<IsShowReportOnlyError>False</IsShowReportOnlyError>
+			<IsShowReportHideAnswers>False</IsShowReportHideAnswers>
+			<IsIncludeReport>False</IsIncludeReport>
+			<IsIncludeReportOnlyError>False</IsIncludeReportOnlyError>
+			<IsIncludeReportHideAnswers>False</IsIncludeReportHideAnswers>
+		</Report>
+		<Limit/>
+		<SaveAndShowResult>
+			<IsSaveResult>False</IsSaveResult>
+			<IsSaveResultText>True</IsSaveResultText>
+			<IsSaveResultProtection>False</IsSaveResultProtection>
+			<IsSendResult>True</IsSendResult>
+			<IsMonitor>True</IsMonitor>
+			<IsSendEMail>False</IsSendEMail>
+			<IsSendPost>False</IsSendPost>
+			<IsShowUserResult>True</IsShowUserResult>
+		</SaveAndShowResult>
+		<OtherOptions>
+			<IsDenyCalculator>False</IsDenyCalculator>
+		</OtherOptions>
+	</TestOptions>
+	<Groups>
+		<Group>
+			<Title>Новая группа</Title>
+			<Tasks></Tasks>
+		</Group>
+	</Groups>
+</MyTestX>
