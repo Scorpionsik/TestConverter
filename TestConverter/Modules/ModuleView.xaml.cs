@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TestConverter
+namespace TestConverter.Modules
 {
     /// <summary>
-    /// Логика взаимодействия для ForMobileView.xaml
+    /// Логика взаимодействия для ModuleView.xaml
     /// </summary>
-    public partial class ForMobileView : UserControl
+    public partial class ModuleView : UserControl
     {
-        public ForMobileView()
+        public ModuleView()
         {
             InitializeComponent();
         }

@@ -14,8 +14,8 @@ namespace TestConverter
             InitializeComponent();
 
             NavigationManager nav = new NavigationManager(this.Dispatcher, this.Frame);
-            nav.Register<ForMobileViewModel, ForMobileView>(new ForMobileViewModel(), App.Modes[0]);
-            nav.Register<ForPCViewModel, ForPCView>(new ForPCViewModel(), App.Modes[1]);
+            nav.Register<ForMobileViewModel, ModuleView>(new ForMobileViewModel(), App.Modes[0]);
+            nav.Register<ForPCViewModel, ModuleView>(new ForPCViewModel(), App.Modes[1]);
 
             this.DataContext = new MainViewModel(nav);
         }
