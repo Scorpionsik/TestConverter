@@ -27,7 +27,7 @@ namespace TestConverter.Modules
                 return new RelayCommand(obj =>
                 {
                     //load qst
-                    string tmp_qst = File.ReadAllText(this.Filepath ?? @"E:\БХ_1-2.qst");
+                    string tmp_qst = File.ReadAllText(this.Filepath);
 
                     Test = new XmlDocument();
                     Test.LoadXml(Properties.Resources.temp_test);
@@ -35,7 +35,7 @@ namespace TestConverter.Modules
                     XmlNode tmp_elem = Test.GetElementsByTagName("Title")[0];
                     XmlNode tmp_elem2;
                     XmlNode tmp_elem3;
-                    tmp_elem.InnerText = this.Filename ?? "Test title";
+                    tmp_elem.InnerText = this.Filename ?? "Без названия";
 
                     //add questions
                     tmp_elem = Test.GetElementsByTagName("Tasks")[0];
