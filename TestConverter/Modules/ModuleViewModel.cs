@@ -80,6 +80,11 @@ namespace TestConverter.Modules
             }
         }
 
+        public abstract RelayCommand Command_HelpLink
+        {
+            get;
+        }
+
         public string GetPathForSavefile()
         {
             if (this.Filename != null && this.Filename.Length > 0)

@@ -1,7 +1,9 @@
 ﻿using CoreWPF.Utilites;
 using System.IO;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TestConverter.Modules
 {
@@ -116,6 +118,19 @@ namespace TestConverter.Modules
                 },
                 (obj) => base.Command_StartConvert.CanExecute()
                 );
+            }
+        }
+
+        public override RelayCommand Command_HelpLink
+        {
+            get
+            {
+                return new RelayCommand(obj =>
+                {
+                    File.WriteAllBytes("1.chm", Properties.Resources._1);
+                    string s = Assembly.GetExecutingAssembly().Location + "\\1.chm";
+                    System.Diagnostics.Process.Start(Assembly.GetExecutingAssembly().Location + "\\1.chm");
+                });
             }
         }
     }

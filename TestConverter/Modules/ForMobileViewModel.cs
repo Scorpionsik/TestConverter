@@ -4,6 +4,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Linq;
 using System.Windows;
+using System.Reflection;
 
 namespace TestConverter.Modules
 {
@@ -92,6 +93,18 @@ namespace TestConverter.Modules
                     this.SaveFile(this.GetPathForSavefile());
                 },
                 (obj) => base.Command_StartConvert.CanExecute());
+            }
+        }
+
+        public override RelayCommand Command_HelpLink
+        {
+            get
+            {
+                return new RelayCommand(obj =>
+                {
+                    File.WriteAllBytes("2.chm", Properties.Resources._1);
+                    System.Diagnostics.Process.Start(Assembly.GetExecutingAssembly().Location + "\\2.chm");
+                });
             }
         }
     }

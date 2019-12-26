@@ -113,6 +113,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\1.chm" />
+    <None Include="Resources\2.chm" />
     <None Include="Resources\temp-test.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
