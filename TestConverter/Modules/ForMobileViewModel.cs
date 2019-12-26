@@ -1,6 +1,9 @@
 ﻿using CoreWPF.Utilites;
 using System.IO;
 using System.Xml;
+using System.Xml.Schema;
+using System.Linq;
+using System.Windows;
 
 namespace TestConverter.Modules
 {
@@ -17,6 +20,49 @@ namespace TestConverter.Modules
         {
             if (path == null || path.Length == 0) return;
             File.WriteAllText(path, Test);
+        }
+
+        static void booksSettingsValidationEventHandler(object sender, ValidationEventArgs e)
+        {
+            if (e.Severity == XmlSeverityType.Warning)
+            {
+                MessageBox.Show("WARNING");
+            }
+            else if (e.Severity == XmlSeverityType.Error)
+            {
+                MessageBox.Show("ERROR");
+            }
+            else MessageBox.Show("OK");
+        }
+
+        public override bool CheckFile()
+        {
+            try
+            {
+                XmlDocument tmp_loadTest = new XmlDocument();
+                tmp_loadTest.Load(this.Filepath);
+            
+                XmlNodeList tmp_list = tmp_loadTest.GetElementsByTagName("Task");
+                if (tmp_list == null || tmp_list.Count == 0) throw new System.Exception();
+                else
+                {
+                    foreach (XmlNode node in tmp_list)
+                    {
+                        if (node.SelectSingleNode("QuestionText/PlainText") == null) throw new System.Exception();
+                        foreach (XmlNode tmp_variant in node.SelectNodes("Variants/VariantText"))
+                        {
+                            if (tmp_variant.Attributes.GetNamedItem("CorrectAnswer") == null) throw new System.Exception();
+                            if (tmp_variant.ChildNodes == null || tmp_variant.ChildNodes.Count == 0 || tmp_variant.SelectSingleNode("PlainText") == null) throw new System.Exception();
+                        }
+
+                    }
+                }
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         public override RelayCommand Command_StartConvert
@@ -45,7 +91,7 @@ namespace TestConverter.Modules
                     }
                     this.SaveFile(this.GetPathForSavefile());
                 },
-                (obj) => this.Filepath != null && this.Filepath.Length > 0);
+                (obj) => base.Command_StartConvert.CanExecute());
             }
         }
     }

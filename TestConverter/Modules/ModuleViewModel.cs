@@ -9,7 +9,7 @@ namespace TestConverter.Modules
     {
         public abstract string Title { get; }
         public abstract string SavefileFilter { get; }
-
+        private bool IsValidFile = false;
         private string filepath;
         public string Filepath
         {
@@ -18,6 +18,28 @@ namespace TestConverter.Modules
             {
                 this.filepath = value;
                 this.OnPropertyChanged("Filepath");
+                this.OnPropertyChanged("FileStatus");
+            }
+        }
+
+        public string FileStatus
+        {
+            get
+            {
+                if (this.Filepath == null || this.Filepath.Length == 0) return "Выберите файл";
+                else
+                {
+                    if (this.CheckFile())
+                    {
+                        this.IsValidFile = true;
+                        return "Готов к обработке";
+                    }
+                    else
+                    {
+                        this.IsValidFile = false;
+                        return "Файл некорректен!";
+                    }
+                }
             }
         }
 
@@ -29,6 +51,8 @@ namespace TestConverter.Modules
         {
             this.Filter = filter;
         }
+
+        public abstract bool CheckFile();
 
         public RelayCommand Command_GetFilepath
         {
@@ -48,9 +72,12 @@ namespace TestConverter.Modules
             }
         }
 
-        public abstract RelayCommand Command_StartConvert
+        public virtual RelayCommand Command_StartConvert
         {
-            get;
+            get
+            {
+                return new RelayCommand(obj => { }, (obj) => this.Filepath != null && this.Filepath.Length > 0 && this.IsValidFile);
+            }
         }
 
         public string GetPathForSavefile()

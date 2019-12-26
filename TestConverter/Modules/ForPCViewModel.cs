@@ -20,6 +20,18 @@ namespace TestConverter.Modules
             Test.Save(path);
         }
 
+        public override bool CheckFile()
+        {
+            try
+            {
+                return !(new Regex(@"((\n)|(^))([^+-?\r\n])").IsMatch(File.ReadAllText(this.Filepath)));
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         public override RelayCommand Command_StartConvert
         {
             get
@@ -91,7 +103,7 @@ namespace TestConverter.Modules
                             }
                             tmp_elem3.Attributes.Append(tmp_attr);
                             tmp_elem3.AppendChild(Test.CreateElement("PlainText"));
-                            tmp_elem3.LastChild.InnerText = new Regex(@"[ \t\r\n]*$").Replace(new Regex("\r\n[ \t]*[+-]{1}[ ]*").Replace(v.Value, ""),"");
+                            tmp_elem3.LastChild.InnerText = new Regex(@"[ \t\r\n]*$").Replace(new Regex("\r\n[ \t]*[+-]{1}[ ]*").Replace(v.Value, ""), "");
                             tmp_elem2.AppendChild(tmp_elem3);
                         }
 
@@ -102,7 +114,7 @@ namespace TestConverter.Modules
 
                     this.SaveFile(this.GetPathForSavefile());
                 },
-                (obj) => this.Filepath != null && this.Filepath.Length > 0
+                (obj) => base.Command_StartConvert.CanExecute()
                 );
             }
         }
