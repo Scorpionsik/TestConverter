@@ -8,7 +8,7 @@ namespace TestConverter.Modules
     public class ForMobileViewModel : ModuleViewModel
     {
         public override string Title { get { return "Конвертер *.xml в *.qst"; } }
-        public override string SavefileFilter { get { return "qst"; } }
+        public override string SavefileFilter { get { return "Тест QST|*.qst"; } }
 
         private string Test;
 
@@ -92,8 +92,8 @@ namespace TestConverter.Modules
                 return new RelayCommand(obj =>
                 {
                     App.KillHelpWindows();
-                    if (!File.Exists(App.AppPath + "2.chm")) File.WriteAllBytes("2.chm", Properties.Resources._1);
-                    System.Diagnostics.Process.Start(App.AppPath + "2.chm");
+                    if (!File.Exists(App.AppPath + "1.chm")) File.WriteAllBytes("1.chm", Properties.Resources._1);
+                    System.Diagnostics.Process.Start(App.AppPath + "1.chm");
                 });
             }
         }

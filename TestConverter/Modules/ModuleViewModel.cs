@@ -111,7 +111,9 @@ namespace TestConverter.Modules
             if (this.Filename != null && this.Filename.Length > 0)
             {
                 SaveFileDialog window = new SaveFileDialog();
-                window.FileName = this.Filename + "." + this.SavefileFilter;
+                window.Title = "Сохранение теста...";
+                window.Filter = this.SavefileFilter;
+                window.FileName = this.Filename;
                 if ((bool)window.ShowDialog())
                 {
                     return window.FileName;

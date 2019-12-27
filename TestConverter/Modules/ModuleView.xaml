@@ -51,7 +51,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Content="Выбрать файл..." Command="{Binding Path=Command_GetFilepath}"/>
+            <Button IsDefault="True" Grid.Column="0" Content="Выбрать файл..." Command="{Binding Path=Command_GetFilepath}"/>
             <Button Grid.Column="1" Content="Конвертировать!" Command="{Binding Path=Command_StartConvert}"/>
         </Grid>
     </Grid>

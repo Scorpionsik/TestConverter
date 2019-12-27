@@ -9,7 +9,7 @@ namespace TestConverter.Modules
     public class ForPCViewModel : ModuleViewModel
     {
         public override string Title { get { return "Конвертер *.qst в *.xml"; } }
-        public override string SavefileFilter { get { return "xml"; } }
+        public override string SavefileFilter { get { return "Файл для импорта в MTX|*.xml"; } }
 
         private XmlDocument Test;
 
@@ -140,9 +140,9 @@ namespace TestConverter.Modules
                 return new RelayCommand(obj =>
                 {
                     App.KillHelpWindows();
-                    if (!File.Exists(App.AppPath + "1.chm")) File.WriteAllBytes("1.chm", Properties.Resources._2);
+                    if (!File.Exists(App.AppPath + "2.chm")) File.WriteAllBytes("2.chm", Properties.Resources._2);
                     
-                    System.Diagnostics.Process.Start(App.AppPath + "1.chm");
+                    System.Diagnostics.Process.Start(App.AppPath + "2.chm");
                 });
             }
         }
