@@ -29,14 +29,13 @@ namespace TestConverter.Modules
                 if (this.Filepath == null || this.Filepath.Length == 0) return "Выберите файл";
                 else
                 {
-                    if (this.CheckFile())
+                    this.IsValidFile = this.CheckFile();
+                    if (this.IsValidFile)
                     {
-                        this.IsValidFile = true;
                         return "Готов к обработке";
                     }
                     else
                     {
-                        this.IsValidFile = false;
                         return "Файл некорректен!";
                     }
                 }
@@ -94,6 +93,17 @@ namespace TestConverter.Modules
         public abstract RelayCommand Command_HelpLink
         {
             get;
+        }
+
+        public RelayCommand Command_UpdateStatus
+        {
+            get
+            {
+                return new RelayCommand(obj =>
+                {
+                    this.OnPropertyChanged("FileStatus");
+                });
+            }
         }
 
         public string GetPathForSavefile()

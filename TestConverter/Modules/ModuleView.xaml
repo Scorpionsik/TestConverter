@@ -13,7 +13,7 @@
             <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
         <TextBlock TextAlignment="Center" FontSize="20" FontWeight="Bold" Grid.Row="0" Text="{Binding Path=Title}" />
-        <Button Content="?" Padding="5 0 5 0" Grid.Row="0" HorizontalAlignment="Right" Command="{Binding Path=Command_HelpLink}">
+        <Button Content="?" Padding="5 0 5 0" Margin="0 2 0 0" Grid.Row="0" Width="22" Height="22" HorizontalAlignment="Right" Command="{Binding Path=Command_HelpLink}">
             <Button.Template>
                 <ControlTemplate  TargetType="Button">
                     <Grid>
@@ -25,6 +25,22 @@
             </Button.Template>
         </Button>
         <DockPanel Grid.Row="1" LastChildFill="True">
+            <Button Padding="5 0 5 0" Margin="0 2 0 0" Width="22" Height="22"  DockPanel.Dock="Right" Command="{Binding Path=Command_UpdateStatus}">
+                <Button.Template>
+                    <ControlTemplate  TargetType="Button">
+                        <Grid>
+                            <Ellipse Fill="LightBlue" ></Ellipse>
+                            <Label Content="{TemplateBinding Content}" HorizontalAlignment="Center"
+                               VerticalAlignment="Center"></Label>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+                <Button.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="pack://application:,,,/TestConverter;component/Resources/update.ico"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
             <TextBlock VerticalAlignment="Center" Margin="5 0 5 0" Text="{Binding Path=FileStatus}" ToolTipService.ShowDuration="60000" ToolTip="{Binding Path=ErrorString}" DockPanel.Dock="Right"/>
             <GroupBox  Header="Выбранный файл:" ToolTipService.ShowDuration="60000" ToolTip="{Binding Path=ErrorString}">
                 <TextBlock VerticalAlignment="Center" Text="{Binding Path=Filepath}" />

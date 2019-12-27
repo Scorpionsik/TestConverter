@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        Title="{Binding Path=Title}" Height="160" Width="455">
+        Title="{Binding Path=Title}" Height="160" Width="470">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
