@@ -43,6 +43,17 @@ namespace TestConverter.Modules
             }
         }
 
+        private string errorString;
+        public string ErrorString
+        {
+            get { return this.errorString; }
+            set
+            {
+                this.errorString = value;
+                this.OnPropertyChanged("ErrorString");
+            }
+        }
+
         public string Filename { get; private set; }
 
         public string Filter { get; private set; }

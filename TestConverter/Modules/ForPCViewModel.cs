@@ -1,9 +1,8 @@
 ﻿using CoreWPF.Utilites;
+using System;
 using System.IO;
-using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Xml;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace TestConverter.Modules
 {
@@ -26,10 +25,23 @@ namespace TestConverter.Modules
         {
             try
             {
-                return !(new Regex(@"((\n)|(^))([^+-?\r\n])").IsMatch(File.ReadAllText(this.Filepath)));
+                string text = File.ReadAllText(this.Filepath);
+                int line = 1;
+                foreach (string str_line in new Regex("\n").Split(text))
+                {
+                    if ((new Regex(@"^([^+-?\r\n])").IsMatch(str_line)))
+                    {
+                        this.ErrorString = "Ошибка в строке: " + line.ToString();
+                        return false;
+                    }
+                    else line++;
+                }
+                if (this.ErrorString != null) this.ErrorString = null;
+                return true;
             }
-            catch
+            catch(Exception ex)
             {
+                this.ErrorString = ex.Message;
                 return false;
             }
         }

@@ -4,9 +4,7 @@ using CoreWPF.Utilites.Navigation;
 using CoreWPF.Windows.Enums;
 using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Reflection;
 
 namespace TestConverter
 {

@@ -1,10 +1,7 @@
 ﻿using CoreWPF.Utilites;
 using System.IO;
 using System.Xml;
-using System.Xml.Schema;
-using System.Linq;
-using System.Windows;
-using System.Reflection;
+using System;
 
 namespace TestConverter.Modules
 {
@@ -23,45 +20,37 @@ namespace TestConverter.Modules
             File.WriteAllText(path, Test);
         }
 
-        static void booksSettingsValidationEventHandler(object sender, ValidationEventArgs e)
-        {
-            if (e.Severity == XmlSeverityType.Warning)
-            {
-                MessageBox.Show("WARNING");
-            }
-            else if (e.Severity == XmlSeverityType.Error)
-            {
-                MessageBox.Show("ERROR");
-            }
-            else MessageBox.Show("OK");
-        }
-
         public override bool CheckFile()
         {
+            int question = 0;
             try
             {
                 XmlDocument tmp_loadTest = new XmlDocument();
                 tmp_loadTest.Load(this.Filepath);
             
                 XmlNodeList tmp_list = tmp_loadTest.GetElementsByTagName("Task");
-                if (tmp_list == null || tmp_list.Count == 0) throw new System.Exception();
+                if (tmp_list == null || tmp_list.Count == 0) throw new System.Exception("Структура файла неверна: тег Task отсутствует");
                 else
                 {
                     foreach (XmlNode node in tmp_list)
                     {
-                        if (node.SelectSingleNode("QuestionText/PlainText") == null) throw new System.Exception();
+                        question++;
+                        if (node.SelectSingleNode("QuestionText/PlainText") == null) throw new System.Exception("Структура файла неверна: тег QuestionText/PlainText отсутствует");
                         foreach (XmlNode tmp_variant in node.SelectNodes("Variants/VariantText"))
                         {
-                            if (tmp_variant.Attributes.GetNamedItem("CorrectAnswer") == null) throw new System.Exception();
-                            if (tmp_variant.ChildNodes == null || tmp_variant.ChildNodes.Count == 0 || tmp_variant.SelectSingleNode("PlainText") == null) throw new System.Exception();
+                            if (tmp_variant.Attributes.GetNamedItem("CorrectAnswer") == null) throw new System.Exception("Структура файла неверна: в теге VariantText нет аттрибута CorrectAnswer");
+                            if (tmp_variant.ChildNodes == null || tmp_variant.ChildNodes.Count == 0 || tmp_variant.SelectSingleNode("PlainText") == null) throw new System.Exception("Структура файла неверна: тег VariantText неверно оформлен");
                         }
 
                     }
                 }
+                if (this.ErrorString != null) this.ErrorString = null;
                 return true;
             }
-            catch
+            catch(Exception ex)
             {
+                this.ErrorString = ex.Message;
+                if (question > 0) this.ErrorString += ", вопрос: " + question.ToString();
                 return false;
             }
         }

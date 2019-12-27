@@ -25,8 +25,8 @@
             </Button.Template>
         </Button>
         <DockPanel Grid.Row="1" LastChildFill="True">
-            <TextBlock VerticalAlignment="Center" Margin="5 0 5 0" Text="{Binding Path=FileStatus}" DockPanel.Dock="Right"/>
-            <GroupBox  Header="Выбранный файл:">
+            <TextBlock VerticalAlignment="Center" Margin="5 0 5 0" Text="{Binding Path=FileStatus}" ToolTipService.ShowDuration="60000" ToolTip="{Binding Path=ErrorString}" DockPanel.Dock="Right"/>
+            <GroupBox  Header="Выбранный файл:" ToolTipService.ShowDuration="60000" ToolTip="{Binding Path=ErrorString}">
                 <TextBlock VerticalAlignment="Center" Text="{Binding Path=Filepath}" />
             </GroupBox>
         </DockPanel>
