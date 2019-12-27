@@ -55,7 +55,7 @@ namespace TestConverter.Modules
                     //load qst
                     string tmp_qst = File.ReadAllText(this.Filepath);
 
-                    Test = new XmlDocument();
+                    this.Test = new XmlDocument();
                     Test.LoadXml(Properties.Resources.temp_test);
                     //add title
                     XmlNode tmp_elem = Test.GetElementsByTagName("Title")[0];
@@ -126,9 +126,9 @@ namespace TestConverter.Modules
                         tmp_elem.AppendChild(tmp_question);
                     }
 
-                    this.SaveFile(this.GetPathForSavefile());
+                    base.Command_StartConvert.Execute(obj);
                 },
-                (obj) => base.Command_StartConvert.CanExecute()
+                (obj) => base.Command_StartConvert.CanExecute(null)
                 );
             }
         }

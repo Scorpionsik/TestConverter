@@ -79,9 +79,9 @@ namespace TestConverter.Modules
                         }
                         this.Test += tmp_writeQuestion;
                     }
-                    this.SaveFile(this.GetPathForSavefile());
+                    base.Command_StartConvert.Execute(obj);
                 },
-                (obj) => base.Command_StartConvert.CanExecute());
+                (obj) => base.Command_StartConvert.CanExecute(null));
             }
         }
 

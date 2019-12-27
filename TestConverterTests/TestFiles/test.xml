@@ -1,0 +1,3604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MyTestX>
+  <Version>11.0.0.58</Version>
+  <SaveDate>2019-12-23T23:02:07Z</SaveDate>
+  <TestOptions>
+    <TestCreate>2019-12-13T00:37:23Z</TestCreate>
+    <TestLastSave>2019-12-13T21:05:09Z</TestLastSave>
+    <Title>test</Title>
+    <Author>Author</Author>
+    <AuthorEmail />
+    <QuestionFormulization>Rand</QuestionFormulization>
+    <IsOrderTaskRandom>True</IsOrderTaskRandom>
+    <IsOrderVariantRandom>True</IsOrderVariantRandom>
+    <Mode>
+      <ModeEducation>True</ModeEducation>
+      <ModeFree>False</ModeFree>
+      <ModePenalty>False</ModePenalty>
+      <ModeMono>False</ModeMono>
+    </Mode>
+    <MarkLevel MarkCount="5">
+      <Level Mark="5">85</Level>
+      <Level Mark="4">70</Level>
+      <Level Mark="3">50</Level>
+      <Level Mark="2">0</Level>
+      <Level Mark="1">0</Level>
+    </MarkLevel>
+    <Mark100True>True</Mark100True>
+    <OptionsGroups>
+      <IsUseGroupLimit>True</IsUseGroupLimit>
+      <IsShowGroupTitle>False</IsShowGroupTitle>
+    </OptionsGroups>
+    <OptionsModeEdu>
+      <IsShowGoodAnswer>True</IsShowGoodAnswer>
+      <IsShowGoodAlert>False</IsShowGoodAlert>
+      <IsRepeatAskTask>False</IsRepeatAskTask>
+      <IsRepeatAtTheEnd>False</IsRepeatAtTheEnd>
+    </OptionsModeEdu>
+    <Report>
+      <IsShowReport>False</IsShowReport>
+      <IsSaveReport>False</IsSaveReport>
+      <IsShowReportOnlyError>False</IsShowReportOnlyError>
+      <IsShowReportHideAnswers>False</IsShowReportHideAnswers>
+      <IsIncludeReport>False</IsIncludeReport>
+      <IsIncludeReportOnlyError>False</IsIncludeReportOnlyError>
+      <IsIncludeReportHideAnswers>False</IsIncludeReportHideAnswers>
+    </Report>
+    <Limit />
+    <SaveAndShowResult>
+      <IsSaveResult>False</IsSaveResult>
+      <IsSaveResultText>True</IsSaveResultText>
+      <IsSaveResultProtection>False</IsSaveResultProtection>
+      <IsSendResult>True</IsSendResult>
+      <IsMonitor>True</IsMonitor>
+      <IsSendEMail>False</IsSendEMail>
+      <IsSendPost>False</IsSendPost>
+      <IsShowUserResult>True</IsShowUserResult>
+    </SaveAndShowResult>
+    <OtherOptions>
+      <IsDenyCalculator>False</IsDenyCalculator>
+    </OtherOptions>
+  </TestOptions>
+  <Groups>
+    <Group>
+      <Title>Новая группа</Title>
+      <Tasks>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які із перелічених елементів входять до складу аналізатора (за І.П. Павловим)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Провідний, посилюючий і сприймаючий відділи.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Уловлюючий, посилюючий і провідний відділи.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сприймаючий, посилюючий і аналізуючий відділи.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Уловлюючий, провідний і аналізуючий відділи.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Рецепторний, провідний і центральний відділи.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яке із зазначених явищ здійснюється на рівні рецепторної ланки аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Посилення сигналів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Фільтрація інформації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Детектування інформації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ослаблення сигналів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Кодування інформації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які із перелічених процесів відбуваються на рівні провідникової ланки аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Проведення і зменшення інформаційного потоку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Проведення імпульсів і видалення інформаційного шуму.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Проведення і попередня обробка інформації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Проведення і посилення інформаційного потоку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Проведення інформації у незмінному вигляді</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які із зазначених явищ відбуваються на рівні центральної ланки аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Іррадіація імпульсів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Дивергенція імпульсів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Загасання імпульсів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Конвергенція нервових імпульсів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Детектування нервових імпульсів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Рецепторний потенціал є аналогом:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Місцевого потенціалу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Потенціалу дії.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>«Спайку» потенціалу дії.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слідового негативного потенціалу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Локальної відповіді.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які нервові процеси забезпечують посилення та «очищення» інформації, яка проводиться?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Трансформація ритму збудження.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Післядія.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Полегшення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Сумація, конвергенція, оклюзія.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Дивергенція.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які із зазначених властивостей є провідними властивостями рецепторів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Лабільність і пластичність.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Пластичність і адаптація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Акомодація і стомлення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Збудливість і адаптація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збудливість і стомлення.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які із зазначених явищ спостерігаються в процесі адаптації рецепторів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Підвищення лабільності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Скорочення періоду рефрактерністі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зменшення тривалості ПД.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Збільшення або зменшення порогу збудливості.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Здатність до акомодації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що забезпечується у результаті взаємодії різних аналізаторів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналіз інформації із різних джерел.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Формування нових міжнейрональних зв’язків.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Потенціація відчуттів у різних аналізаторах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Формування точних уявлень.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Синтез відповідей із різних джерел інформації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Тривалість сенсорної пам'яті становить:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1-10 секунд.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10 секунд – 1 хвилина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1-10 хвилин.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Менше 1 секунди.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10 хвилин – 1 година.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>По відношенню до якого кольору чутливість паличок найвища?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Багряно-червоного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Яскраво-синього.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Синьо-зеленого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Темно-зеленого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помаранчево-червоного.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>По відношенню до якого кольору чутливість колбочок найвища?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Синього.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зеленого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Жовтого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помаранчевого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Червоного.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>При якої довжині світлової хвилі виникає максимальне поглинання світлових променів паличками сітківки?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>605 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>555 нм</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>500 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>665 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>425 нм.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>При якої довжині світлової хвилі виникає максимальне поглинання світлових променів колбочками сітківки?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>425 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>605 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>560 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>505 нм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>665 нм.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим, найбільшою мірою, визначається освітленість сітківки?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кривизною рогівки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кривизною кришталика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Діаметром зіниці.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кількістю водянистої вологи передньої камери</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Станом зорового нерва.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Визначте, що таке акомодація.</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Заломлювальна здатність рогівки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Зміна кривизни кришталика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Циркуляція водянистої вологи камерами.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зміна діаметру зіниці.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зведення оптичних осей ока.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що є основою процесу адаптації до темряви?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зниження чутливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Зменшення порога збудливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Підвищення порогу збудливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшення кількості ретинолу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшення кількості родопсину.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що є основою процесу адаптації до світла?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зменшення порога збудливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Збільшення порога збудливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшення порога просторового розрізнення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшення порога розрізнення сили подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшення порога розрізнення часу дії подразника.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якою функцією зорового аналізатора визначається глибина простору?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Центральний зір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Бінокулярний зір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Периферійний зір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Розміром зображення на сітківці.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Розміром полів зору обох очей.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У які коркові відділи великих півкуль надходять імпульси від рецепторів правих половин сітківки обох очей?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У відділи лівої півкулі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У відділи правої півкулі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ліву асоціативну зону кори великих півкуль від обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У праву асоціативну зону кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У відділи правої та лівої півкуль.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У які коркові відділи великих півкуль надходять імпульси від рецепторів лівих половин сітківки обох очей?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У відділи правої та лівої півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У відділи лівої півкулі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ліву асоціативну зону кори великих півкуль від обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У праву асоціативну зону кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У відділи правої півкулі.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що буде спостерігатися при ураженні лівого зорового нерва?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Повна сліпота лівого ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Парацентральні скотоми лівого ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання лівого поля зору лівого ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання правого поля зору лівого ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Периферичні скотоми лівого ока.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що буде спостерігатися при ураженні лівого зорового тракту?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Випадання правих половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання лівих половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання внутрішніх половин зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання зовнішніх половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Поява центральних скотом полів зору обох очей.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що буде спостерігатися при здавлені пухлиною гіпофіза внутрішньої частини хіазми?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Випадання зовнішніх половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання правих половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання лівих половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Випадання внутрішніх половин полів зору обох очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Поява центральних скотом полів зору обох очей.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим обумовлена стареча далекозорість (пресбіопія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Склерозуванням і сплощенням кришталика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помутнінням і зменшенням прозорості кришталика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Віковими змінами рефракції рогівки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зміною оптичної щільності склоподібного тіла.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушеннями циркуляції водянистої вологи.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим обумовлена короткозорість (міопія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Малої довжиною оптичної осі ока і недостатністю рефракції.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ураженням сітківки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ураженням зорового нерва.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Підвищеним тиском усередині ока і слабкістю склери.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Фокусуванням зображення перед сітківкою.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим обумовлена далекозорість (гіперметропія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Збільшенням оптичної осі ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Підвищеним тиском усередині ока і слабкістю склери.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ураженням зорового нерва.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ураженням сітківки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Фокусуванням зображення за сітківкою.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>При якому стані розглянуті предмети виглядають розтягнутими?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Відшаруванні сітківки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Старечої далекозорості.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Короткозорості.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Далекозорості.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Астигматизмі.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим може бути обумовлена відсутність сприйняття всіх кольорів (ахромазія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зменшення полів зору.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушеннями ресинтезу родопсину.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушенням роботи коркового відділу зорового аналізатора.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Природженою відсутністю паличок.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Природженою відсутністю колбочок.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які кольори не сприймають люди, які страждають на протанопію?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Синій колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зелений колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помаранчевий колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Фіолетовий колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Червоний колір.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які кольори не сприймають люди, які страждають на дейтеранопію?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Зелений колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Червоний колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Синій колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Фіолетовий колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помаранчевий колір.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які кольори не сприймають люди, які страждають на тританопію?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Синій і фіолетовий колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Червоний колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Жовтий колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зелений колір.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Помаранчевий колір.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чому дорівнює поріг розрізнення часу для зорового аналізатору?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>50 мс.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>100 мс.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>150 мс.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>200 мс.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>25 мс.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>При який мінімальній частоті миготіння виникає явище послідовних образів (основа кінематографу)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>25 за сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>15 за сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>35 за сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>45  за сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>55 за сек.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим забезпечується підвищення чутливості до світла фоторецепторів при їх адаптації до темряви?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Швидкістю ресинтезу зорових пігментів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Швидкістю ресинтезу йодопсину.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Швидкістю ресинтезу родопсину.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зниженням збудливості фоторецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Уповільненням фотохімічних реакцій на сітківці.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які структури відносяться до апарату слухового аналізатора, який вловлює звук (ототопіція)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Барабанна перетинка.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Вушна раковина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слухові кісточки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Спіральний орган (Корті).</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Півколові канали.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які структури відносяться до апарату слухового аналізатора, який проводе звук?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Барабанна перетинка і мембрана овального вікна.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Слухові кісточки, барабанна перетинка і мембрана овального вікна.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Півколові канали.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Спіральний орган (Корті) і мембрана круглого вікна.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Вушна раковина і барабанна перетинка.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які структури відносяться до звукосприймаючого апарату слухового аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слухові кісточки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Спіральний орган (Корті).</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Вушна раковина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Барабанна перетинка.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Півколові канали.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Порушення сприйняття звукових хвиль якої частоти виникає при ураженні нижньої частини завитка?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>16-150 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>10000-20000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>5000-10000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1000-5000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>150-999 Гц.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Порушення сприйняття звукових хвиль якої частоти виникає при ураженні верхньої частини завитка?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10000-20000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>16-150 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>5000-10000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1000-5000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>150-999 Гц.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Порушення сприйняття звукових хвиль якої частоти виникає при ураженні середньої частини завитка?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10000-20000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>5000-10000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>1000-5000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>150-999 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>16-150 Гц.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Від чого залежить гострота слуху?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ступеню тренованості фонорецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інтенсивності звукового тиску.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Різниці чутливості фонорецептори.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Діапазону сприйняття звукових частот.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ступеню збудливості фонорецептори.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де повинно бути розташовано джерело звуку, щоб людина могла найкраще визначити його місцезнаходження?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Спереду.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Ззаду.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Збоку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Знизу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зверху.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Зазначте діапазон звукових частот, які сприймає доросла здорова людина.</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>200-30000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>150-25000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>16-20000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1000 Гц.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>30-10000 Гц.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Завдяки чому бінауральний слух дозволяє визначати локалізацію джерела звуку у просторі?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Усім переліченим особливостям.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Протифазному коливанню ендолімфи у правому та лівому завитках.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Тимчасовій затримці надходження звуку у праве та ліве вухо.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Протилежної спрямованості зовнішніх слухових проходів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Просторовому кодуванню звукової інформації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані рецептори, що реагують на речовини гіркого смаку?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На передньобоковій частини язика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На задньобоковій частини язика.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На спинці язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У ділянці кореня язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На кінчику язику.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані рецептори, що реагують на речовини солодкого смаку?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На передньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На задньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На спинці язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>На кінчику язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ділянці кореня язику.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані рецептори, що реагують на речовини кислого смаку?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На передньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На спинці язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ділянці кореня язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>На задньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На кінчику язику.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані рецептори, що реагують на речовини солоного смаку?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На задньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На спинці язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ділянці кореня язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>На передньобоковій частини язику.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На кінчику язику.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташований центральний відділ смакового аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У середній скроневій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У нижній лобовій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У надкраєвій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У постцентральній звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У верхній скроневій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У якому стані повинні знаходитися речовини, які взаємодіють зі смаковими рецепторами, щоб виниклі смакові відчуття?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нерозчинні у жирах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нерозчинні у жирах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нерозчинні у воді.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Розчинні у органічних розчинниках.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Розчинні у жирах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Розчинні у воді.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Від чого залежить виразність смакового відчуття?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кількості збуджених рецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тривалості подразнення рецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Хімічних властивостей речовини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Функціонального стану рецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Концентрації речовини.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якою кількістю типів рецепторів представлений сприймаючий апарат нюхового аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>6 основних типів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>5 основних типів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>3 основних типів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>4 основних типів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>7 основних типів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані нюхові рецептори?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>На задній стінці носоглотки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У ділянках середніх носових раковин.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У нижніх відділах носової порожнини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Дифузне розташування по всій носової порожнини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У верхніх відділах носової порожнини.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташований центральний відділ нюхового аналізатора?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У середній скроневій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У надкраєвій звивині кори великих півкуль</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У верхній скроневій звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У постцентральній звивині кори великих півкуль.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У періформній області кори великих півкуль.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Від чого залежить виразність відчуття запаху?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Концентрації пахучої речовини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Стереохімічних властивостей речовини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Функціонального стану рецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кількості збуджених рецепторів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тривалості подразнення рецепторів</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>На протязі якого часу розвивається адаптація нюхових рецепторів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>4 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10 сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>30 сек.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Від чого залежить сила відчуттів, що на початку створюються нюховими рецепторами?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Швидкості утворення комплексу нюхових волосин із одорантом.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інтенсивності взаємодії нюхових волосин із одорантом.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тривалості взаємодії нюхових волосин із одорантом.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прискорення утворення комплексу нюхових волосин із одорантом.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кількості нюхових волосин, що взаємодіють із одорантом.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яку ознаку тактильного подразника сприймають тільця Пачіні?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інтенсивність подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тривалість подразника</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Швидкість подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Прискорення (вібрацію) подразника.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яку ознаку тактильного подразника сприймають тільця Мейснера?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Частоту діючого подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прискорення руху подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Швидкість деформації шкіри від подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інтенсивність подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тривалість дії подразника.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де розташовані рецептори, що сприймають звукові коливання (фонорецептори)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У слухових кісточках.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У завитці.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У півколових каналах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У присінку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У Євстахієвій трубі.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які рецепторні клітини є фонорецепторами?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тільця Мейсснера.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Пластинчасті тільця Фатера-Пачіні.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Отоліти.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Волокна слухового нерву.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Волоскові клітини.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яким фізіологічним механізмом забезпечується рефлекс розширення зіниці?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Розслаблення м'язів війкового тіла.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Скорочення прямих м'язів очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Скорочення косих м'язів очей.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Скорочення радіальних м'язів райдужної оболонки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Скорочення циркулярних м'язів райдужної оболонки.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Визначте функцію пігментного шару сітківки.</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Перешкода світлорозсіюванню.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Імунна.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Світосприйняття.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Захисна.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Утворення сліз.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Який фізіологічний процес відображає електроретинограма?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Це крива реєстрації викликаних потенціалів оптичного тракту.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Це крива реєстрації сумарної електричної активності сітківки ока.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Це крива реєстрації викликаних потенціалів зовнішнього колінчастого тіла.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Це крива реєстрації викликаних потенціалів проекційної області зорової кори.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Це крива реєстрації руху очного яблука.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яка повинна бути сила умовного сигналу щодо вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Достатньою щодо нормального сприйняття.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Рівною силі безумовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сильніше безумовного подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Переважаючою на фоні інших подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабше безумовного подразника.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яка повинна бути сила безумовного сигналу щодо вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Рівною силі умовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабше умовного подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Достатньою для нормального здійснення базового безумовного рефлексу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Переважаючою на фоні інших подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Сильніше умовного подразника.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У якої залежності одне від одного знаходяться тривалість інтервалу між умовним сигналом і безумовно-рефлекторним підкріпленням в процесі вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від біологічної значимості умовного рефлексу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У прямій залежності від сили або інформаційного значення умовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від сили або інформаційного значення безумовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від сили або інформаційного значення безумовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від сили або інформаційного значення умовного сигналу.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У якої залежності одна від одної знаходяться кількість повторень комбінації умовного сигналу і безумовно-рефлекторного підкріплення в процесі вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від сили або інформаційного значення безумовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від сили або інформаційного значення безумовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від сили або інформаційного значення умовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У прямій залежності від біологічної значимості умовного рефлексу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від сили або інформаційного значення умовного сигналу.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чому дорівнює оптимальний інтервал часу між умовним сигналом і безумовно-рефлекторним підкріпленням в процесі вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>30-40 сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>20-30 сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1-3 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>3-10 сек.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>50-60 сек.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якими ознаками відрізняються умовні рефлекси від безумовних?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовні рефлекси є складними, комплексними, ситуаційними.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовні рефлекси є простими, життєво необхідними, надійними.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовні рефлекси є ланцюговими, гормонально залежними</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовні рефлекси є видовими, постійними, природженими.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Умовні рефлекси є індивідуальними, придбаними, непостійними.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якими ознаками відрізняються безумовні рефлекси від умовних?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Безумовні рефлекси є видовими, постійними, природженими.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовні рефлекси є ланцюговими, гормонально залежними, адаптаційними.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовні рефлекси є простими, життєво необхідними, надійними.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовні рефлекси є складними, комплексними, ситуаційними.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовні рефлекси є індивідуальними, придбаними, непостійними.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яка тривалість сенсорної пам'яті?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Все життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька років.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Частки секунди.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька хвилин</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька секунд.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Участь яких структур ЦНС є обов'язковою щодо формування умовно-рефлекторних реакцій?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Структури довгастого і проміжного мозку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кора великих півкуль головного мозку і ретикулярна формація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Структури гіпоталамо-лімбічно-ретикулярного комплексу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Кора і підкіркові структури великих півкуль головного мозку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кора великих півкуль головного мозку і кора мозочка.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Між нейронами яких структур ЦНС формується тимчасовий зв'язок, який є основою вироблення умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кори великих півкуль головного мозку і ретикулярної формації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Між гліальними клітинами кори великих півкуль головного мозку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Між нейронами різних відділів кори великих півкуль головного мозку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кори великих півкуль головного мозку і гіпоталамусу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Між нейронами лімбічно-ретикулярного комплексу.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>З яким фізіологічним процесом пов’язано формування умовного рефлексу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Проростання нервових волокон, що з'єднують нейрони.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Просторово-часова інтеграція нейронів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Активація синаптичних зв'язків між нейронами</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Активація функції гліальних клітин.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кодування інформації на молекулах ДНК.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>З якими специфічними властивостями центральної нервової системи пов'язано утворення умовних рефлексів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Конвергенція, сумація, домінанта, післядія.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Іррадіація, конвергенція, послідовна індукція.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Посттетанічна потенціація, післядія, трансформація ритму збудження.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Полегшення, оклюзія, принцип загального кінцевого шляху.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сумація, трансформація ритму збудження, посттетанічна потенціація.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У яких умовах виробляється динамічний стереотип?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безперервна мінливість умов життєдіяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Регулярна повторюваність послідовності подій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Дія ланцюгових подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Пред'явлення комплексних подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференціювання подразників за їх сигнальним значенням.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яке значення має гальмування умовних рефлексів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Захисне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Пристосувальне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Орієнтовне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналітичне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференційоване.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>При яких умовах виникає позамежне гальмування?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення просторово-часової структури умовного рефлексу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Різка зміна умов життєдіяльності та динамічного стереотипу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Надмірне збільшення сили умовного сигналу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Надмірна тривалість інтервалів між умовним і безумовним сигналами.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Дія сильних та раніше невідомих подразників.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якими із наступних ознак характеризується зовнішнє гальмування?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Передається у спадок, зберігається протягом усього життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Виникає при диференціюванні близьких за значенням сигналів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Виявляється в особливих умовах при непідкріплені.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Не потребує вироблення, має зворотній характер.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Виробляється в онтогенезі, має стійкий характер.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якими із наступних ознак характеризується внутрішнє гальмування?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Порушується просторово-часова структура міжнейрональних взаємодій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Не потребує вироблення, має зворотній характер.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Виробляється в онтогенезі, має стійкий характер.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Передається у спадок, зберігається протягом усього життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Виникає при дії надзвичайно сильних умовних сигналів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>До зовнішнього гальмування відноситься:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференційоване.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Позамежне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Запізнювальне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовно гальмівне.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Згасаюче.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>До якого виду гальмування відноситься переривання поточної умовно-рефлекторної діяльності під час орієнтовної реакції?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференційованого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Безумовного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовно гальмівного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Позамежного.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>До якого виду гальмування відноситься припинення умовно рефлекторної реакції при втраті сигнального значення умовного подразника?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференційованого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовно гальмівного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Згасаючого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Позамежного.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>До якого виду гальмування відноситься припинення умовно рефлекторної реакції при модифікації сигнального значення умовного подразника?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Позамежного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовно гальмівного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Згасаючого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Диференційованого.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>До якого виду гальмування відноситься припинення умовно рефлекторної реакції при збільшенні тимчасового інтервалу між умовним і безумовним подразниками?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференційованого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Позамежного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовно гальмівного.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Запізнювального.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовного.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що є нейрофізіологічною основою формування динамічного стереотипу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Взаємодія процесів збудження і гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференціювання різних впливів на організм.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Аналітико-синтетична діяльність кори.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Об'єднання збуджень у різних нейронних групах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналіз мозком комплексних подразників.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Здатністю до якого процесу обумовлена пластичність вищої нервової діяльності людини?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналітико-синтетичної діяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Перемикання сигнального значення умовного подразника.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Комплексного просторово-тимчасового сприйняття.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Вироблення динамічного стереотипу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Формування пристосувальних реакцій випереджаючого типу.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Якими фізіологічними механізмами обумовлений тип вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Вродженими особливостями процесів збудження і гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливостями виховання, навчання і трудової діяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Співвідношенням «художнього» і «розумового» компонентів мислення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливостями утворення умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливостями гальмування умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що оцінюють у процесі об'єктивного дослідження типу вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Силу, врівноваженість і рухливість кіркових процесів збудження і гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Здатність стримувати емоційні прояви.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Швидкість перебудови динамічного стереотипу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Автономні прояви емоційних реакцій на значущі подразники.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Поведінкові прояви емоційних реакцій на значущі подразники.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Дайте визначення темпераменту людини.</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливості гальмування умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливості утворення умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Взаємодія вроджених і набутих властивостей основних процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Співвідношення «художнього» і «розумового» компонентів мислення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Вроджені особливості процесів збудження і гальмування.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Дайте визначення характеру людини.</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливості гальмування умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Особливості утворення умовно-рефлекторних реакцій.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Вплив середовища, виховання, навчання і трудової діяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Взаємодія вроджених і набутих властивостей основних процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Вроджені особливості процесів збудження і гальмування.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що із наведеного може бути причиною порушення вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інертність основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення самоконтролю і самовладання.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабкість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Хронічні захворювання, що супроводжуються больовим синдромом.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Перенапруження процесу збудження.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>На яких процесах заснована перша сигнальна система?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Безумовних рефлексах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Умовних рефлексах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інстинктах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Комплексних рефлексах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Рефлексах другого порядку.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>На яких процесах заснована друга сигнальна система?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Умовних рефлексах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Рефлексах другого порядку.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Комплексних рефлексах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інстинктах.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Безумовних рефлексах.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Який процес забезпечує друга сигнальна система?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Абстрактне мислення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Свідоме управління поведінкою.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Несвідоме управління поведінкою.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Фіксацію показників самооцінки.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Механізми соціальних контактів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де локалізується сенсорний центр мови (центр Верніке)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Верхня скронева звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхня лобова звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижня скронева звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижня лобова звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Задня центральна звивина.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Де локалізується моторний центр мови (центр Брока)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Передня центральна звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхня скронева звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхня лобова звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижня скронева звивина.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Нижня лобова звивина.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>З пошкодженням якої ділянки кори великих півкуль головного мозку пов'язане порушення сприйняття мови (сенсорна афазія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхньої лобової звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижньої скроневої звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Верхньої скроневої звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Задній центральної звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижньої лобової звивини.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що із наведеного може бути причиною порушення вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабкість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Перенапруження процесу внутрішнього гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Неврівноваженість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інертність основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення самоконтролю і самовладання.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що із наведеного може бути причиною порушення вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Неврівноваженість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Перенапруження рухливості основних процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабкість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення самоконтролю і самовладання.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інертність основних нервових процесів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що із наведеного може бути причиною порушення вищої нервової діяльності?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>«Сшибки» процесів збудження і гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інертність основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення самоконтролю і самовладання.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Слабкість основних нервових процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Неврівноваженість основних нервових процесів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Яка нейрофізіологічна природа неврозів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Гостре порушення аналітико-синтетичної діяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>«Зрив» вищої нервової діяльності.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Гостра перебудова динамічного стереотипу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення кортико-вісцеральних зв'язків.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Порушення просторово-часових зв'язків у корі великих півкуль головного мозку.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які сигнали належать до умовних сигналів 1-й сигнальної системи?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Символи предметів і явищ, які виражені у словесній формі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сліди попередніх порушень, що зберігаються у короткочасній пам'яті.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Наявні сигнали, предмети або явища, які сприймаються аналізаторами.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інформаційні сліди, які закодовані у молекулах ДНК.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сліди попередніх порушень, що зберігаються у довгостроковій пам'яті.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Які сигнали належать до умовних сигналів 2-й сигнальної системи?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Символи предметів і явищ, які виражені у словесній формі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Інформаційні сліди, які закодовані у молекулах ДНК.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сліди попередніх порушень, що зберігаються у довгостроковій пам'яті</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сліди попередніх порушень, що зберігаються у короткочасній пам'яті.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Наявні сигнали, предмети або явища, які сприймаються аналізаторами.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим є свідомість?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Відображення в мозку людини навколишнього світу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Відчуття окремих властивостей предметів і явищ.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сприйняття сукупності властивостей предметів і явищ.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналіз і синтез комплексних подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференціювання окремих властивостей предметів і явище.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Чим є процес мислення?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Образне відображення предметів і явищ.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Абстрактно-узагальнене відображення світу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Процес оперування уявленнями.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Конкретно-чуттєве відображення світу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналітико-синтетична діяльність мозку.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Що є основою уявлення?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Ланцюг асоціацій з тимчасовими зв'язками.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Диференціювання окремих властивостей предметів і явищ.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Аналіз і синтез комплексних подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сприйняття сукупності властивостей предметів і явищ.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Відчуття окремих властивостей предметів і явищ.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>З пошкодженням якої ділянки кори великих півкуль головного мозку пов'язане порушення здатності говорити (моторна афазія)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхньої лобової звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Нижньої скроневої звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Верхньої скроневої звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Нижньої лобової звивини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Передньої центральної звивини.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Емоція уявляє собою реакцію:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Тимчасового пригнічення «непотрібних» функції у критичних ситуаціях.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Активації інтелектуальної діяльності людини.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Цілого організму на дію подразників із яскраво вираженим суб'єктивним забарвленням.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Активації рухових функції при дії значних подразників.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Активації ендокринно-автономних функції у загрозливій ситуації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>У залежності від чого знаходиться ступінь емоційної напруги?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від виразності загрози.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від обсягу наявної інформації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>У залежності від усього перерахованого.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У прямій залежності від дефіциту часу.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>У зворотній залежності від індивідуального досвіду.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Особливістю пам'яті людини є здатність до:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Словесного формулюванні ідей та зберігання їх у абстрактній формі.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Забування інформації, яка втратила своє значення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Використання короткочасної і довготривалої пам'яті.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Часткового збереження найбільш важливої інформації.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Накопичення, зберігання і вилучення інформації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Тривалість первинної пам'яті становить:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Частки секунди.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька хвилин.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Все життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька років.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Кілька секунд.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Тривалість вторинної пам'яті становить:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Частки секунди.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Кілька років.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька хвилин.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Все життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька секунд.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Тривалість третинної пам'яті становить:</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька секунд.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Частки секунди.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Все життя.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька років.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Кілька хвилин.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Який із наведених елементів функціональної системи відноситься до стадії аферентного синтезу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Акцептор результатів дії.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Обстановочна аферентація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прийняття стратегічного рішення</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прийняття тактичного рішення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зворотні аферентації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Який із наведених елементів функціональної системи відноситься до стадії еферентного синтезу?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прийняття тактичного рішення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Прийняття стратегічного рішення.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Акцептор результатів дії.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Обстановочна аферентація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Зворотні аферентації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Який із наведених елементів функціональної системи відноситься до стадії прийняття рішення?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Акцептор результатів дії.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Обстановочна аферентація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Пускова аферентація.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Апарат пам'яті.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Зворотні аферентації.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Від чого залежить швидкість і міцність вироблення умовних рефлексів?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сила зовнішнього гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Сила внутрішнього гальмування.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Неврівноваженість основних процесів.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Сила процесу збудження.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Рухливість основних процесів.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>На скільки відсотків повинна бути освітлена одна поверхня більше за іншу, щоб зоровий аналізатор сприйняв різницю їх освітленості (поріг розрізнення за силою)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>1,5-3,0%.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>1,0-1,5%.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>3,0-4,0%.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>5-7%.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>10%.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+        <Task Type="TYPE_TASK_CHOICE_SINGLE" Score="1">
+          <Title />
+          <QuestionText>
+            <PlainText>Під яким кутом нормальне око з гостротою зору 1,0 здатне розрізняти дві точки простору (поріг розрізнення простору)?</PlainText>
+          </QuestionText>
+          <Options>
+            <IsAllowRandom>true</IsAllowRandom>
+            <IsCompulsory>false</IsCompulsory>
+            <IsOnlyForEduMode>false</IsOnlyForEduMode>
+            <IsDenyPartially>false</IsDenyPartially>
+          </Options>
+          <Variants>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Під кутом у 0,5 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Під кутом у 4 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="True">
+              <PlainText>Під кутом у 1 хв.</PlainText>
+            </VariantText>
+            <VariantText CorrectAnswer="False">
+              <PlainText>Під кутом у 6 хв.</PlainText>
+            </VariantText>
+          </Variants>
+        </Task>
+      </Tasks>
+    </Group>
+  </Groups>
+</MyTestX>

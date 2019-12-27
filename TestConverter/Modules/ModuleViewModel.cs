@@ -64,12 +64,18 @@ namespace TestConverter.Modules
 
         public abstract bool CheckFile();
 
-        public RelayCommand Command_GetFilepath
+        public RelayCommand<string> Command_GetFilepath
         {
             get
             {
-                return new RelayCommand(obj =>
+                return new RelayCommand<string>(obj =>
                 {
+                    if(obj != null && obj.Length > 0)
+                    {
+                        this.Filepath = obj;
+                        this.Filename = new Regex(@"\..+$").Replace(new Regex(@"[^\\]+$").Match(obj).Value, "");
+                        return;
+                    }
                     OpenFileDialog window = new OpenFileDialog();
                     window.Filter = this.Filter;
                     window.Title = "Выберите тест для работы";
@@ -86,7 +92,10 @@ namespace TestConverter.Modules
         {
             get
             {
-                return new RelayCommand(obj => { }, (obj) => this.Filepath != null && this.Filepath.Length > 0 && this.IsValidFile);
+                return new RelayCommand(obj => 
+                {
+                    if (obj == null) this.SaveFile(this.GetPathForSavefile());
+                }, (obj) => this.Filepath != null && this.Filepath.Length > 0 && this.IsValidFile);
             }
         }
 
