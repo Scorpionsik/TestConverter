@@ -102,8 +102,9 @@ namespace TestConverter.Modules
             {
                 return new RelayCommand(obj =>
                 {
-                    File.WriteAllBytes("2.chm", Properties.Resources._1);
-                    System.Diagnostics.Process.Start(Assembly.GetExecutingAssembly().Location + "\\2.chm");
+                    App.KillHelpWindows();
+                    if (!File.Exists(App.AppPath + "2.chm")) File.WriteAllBytes("2.chm", Properties.Resources._1);
+                    System.Diagnostics.Process.Start(App.AppPath + "2.chm");
                 });
             }
         }

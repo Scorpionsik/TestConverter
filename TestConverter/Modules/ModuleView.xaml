@@ -13,7 +13,17 @@
             <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
         <TextBlock TextAlignment="Center" FontSize="20" FontWeight="Bold" Grid.Row="0" Text="{Binding Path=Title}" />
-        <Button Content="?" Grid.Row="0" HorizontalAlignment="Right" Command="{Binding Path=Command_HelpLink}"/>
+        <Button Content="?" Padding="5 0 5 0" Grid.Row="0" HorizontalAlignment="Right" Command="{Binding Path=Command_HelpLink}">
+            <Button.Template>
+                <ControlTemplate  TargetType="Button">
+                    <Grid>
+                        <Ellipse Fill="LightBlue" ></Ellipse>
+                        <Label Content="{TemplateBinding Content}" HorizontalAlignment="Center"
+                               VerticalAlignment="Center"></Label>
+                    </Grid>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
         <DockPanel Grid.Row="1" LastChildFill="True">
             <TextBlock VerticalAlignment="Center" Margin="5 0 5 0" Text="{Binding Path=FileStatus}" DockPanel.Dock="Right"/>
             <GroupBox  Header="Выбранный файл:">

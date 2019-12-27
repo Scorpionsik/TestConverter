@@ -4,6 +4,7 @@ using CoreWPF.Utilites.Navigation;
 using CoreWPF.Windows.Enums;
 using Microsoft.Win32;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 
@@ -68,8 +69,22 @@ namespace TestConverter
                 currentUserKey.SetValue("saveMode", (this.Modes.IndexOf(this.Select_mode)).ToString());
             }
             catch { }
-            if (File.Exists(Assembly.GetExecutingAssembly().Location + "\\1.chm")) File.Delete(Assembly.GetExecutingAssembly().Location + "\\1.chm");
-            if (File.Exists(Assembly.GetExecutingAssembly().Location + "\\2.chm")) File.Delete(Assembly.GetExecutingAssembly().Location + "\\2.chm");
+
+            App.KillHelpWindows();
+            try
+            {
+                if (File.Exists(App.AppPath + "1.chm"))
+                {
+                    File.Delete(App.AppPath + "1.chm");
+                }
+                if (File.Exists(App.AppPath + "2.chm"))
+                {
+                    File.Delete(App.AppPath + "2.chm");
+                }
+            }
+            catch { }
+            
+
             return base.CloseMethod();
         }
     }
