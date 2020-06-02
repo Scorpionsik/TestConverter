@@ -66,7 +66,7 @@ namespace TestConverter.Modules
                     //add questions
                     tmp_elem = Test.GetElementsByTagName("Tasks")[0];
 
-                    foreach (Match m in new Regex(@"(\n)?[ \t]*\?.+(\r\n[ \t]*[+-]{1}[^\r]+)+").Matches(tmp_qst))
+                    foreach (Match m in new Regex(@"(\n)?[ \t]*\?.+([\r]*\n[ \t]*[+-]{1}[^\r\n]+)+").Matches(tmp_qst))
                     {
                         XmlNode tmp_question = Test.CreateElement("Task");
                         XmlAttribute tmp_attr = Test.CreateAttribute("Type");
@@ -80,7 +80,7 @@ namespace TestConverter.Modules
                         tmp_elem2 = Test.CreateElement("QuestionText");
                         tmp_elem2.AppendChild(Test.CreateElement("PlainText"));
 
-                        string Q_title = new Regex(@"\?[^\r]+").Match(m.Value).Value;
+                        string Q_title = new Regex(@"\?[^\r\n]+").Match(m.Value).Value;
                         Q_title = new Regex(@"^\?{1,2} ").Replace(Q_title, "");
 
                         tmp_elem2.FirstChild.InnerText = new Regex(@"[ \t\r\n]*$").Replace(Q_title, "");
@@ -103,21 +103,21 @@ namespace TestConverter.Modules
                         //add variants
                         tmp_elem2 = Test.CreateElement("Variants");
 
-                        foreach (Match v in new Regex("\r\n[ \t]*[+-]{1}[^\r]+").Matches(m.Value))
+                        foreach (Match v in new Regex("[\r]*\n[ \t]*[+-]{1}[^\r\n]+").Matches(m.Value))
                         {
                             tmp_elem3 = Test.CreateElement("VariantText");
                             tmp_attr = Test.CreateAttribute("CorrectAnswer");
-                            if (new Regex("\r\n[ \t]*[+]{1}").IsMatch(v.Value))
+                            if (new Regex("[\r]*\n[ \t]*[+]{1}").IsMatch(v.Value))
                             {
                                 tmp_attr.InnerText = "True";
                             }
-                            else if (new Regex("\r\n[ \t]*[-]{1}").IsMatch(v.Value))
+                            else if (new Regex("[\r]*\n[ \t]*[-]{1}").IsMatch(v.Value))
                             {
                                 tmp_attr.InnerText = "False";
                             }
                             tmp_elem3.Attributes.Append(tmp_attr);
                             tmp_elem3.AppendChild(Test.CreateElement("PlainText"));
-                            tmp_elem3.LastChild.InnerText = new Regex(@"[ \t\r\n]*$").Replace(new Regex("\r\n[ \t]*[+-]{1}[ ]*").Replace(v.Value, ""), "");
+                            tmp_elem3.LastChild.InnerText = new Regex(@"[ \t\r\n]*$").Replace(new Regex("[\r]*\n[ \t]*[+-]{1}[ ]*").Replace(v.Value, ""), "");
                             tmp_elem2.AppendChild(tmp_elem3);
                         }
 
